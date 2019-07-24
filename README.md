@@ -1,23 +1,13 @@
-# COMP257 Practicals 2018
+# COMP257 Practicals 2019
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/MQCOMP257/practicals-2018/master)
 
-This repository contains practical notebooks for COMP257/ITEC657 2018.  
+This repository  will contain your practical notebooks for COMP257/ITEC657 2019.  The initial
+repository has one notebook for the first week. Each week you will add a new notebook and commit
+your changes as you complete the problems set for you.  At the end of the semester you will have
+this repository as a record of your work.  This can then form part of your ongoing portfolio of work.
 
-The link above to Binder will let you run these notebooks on the [mybinder.org](https://mybinder.org) service, but not that you can't save your work there so it's just for experimentation.
+You can update this README file to personalise your repository. 
 
-To update your repository when I make changes to this one you need to add a 'remote':
 
-```
-git remote add upstream https://github.com/MQCOMP257/practicals-2018.git
-```
 
-then each time you want to get new changes:
 
-```
-git pull --rebase upstream master
-```
-
-Note that the `--rebase` option is not something you would normally use with `git pull`. It is useful 
-in this special case when you are pulling changes from an upstream repository and you've made your
-own commits locally. 
